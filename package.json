@@ -1,0 +1,22 @@
+{
+  "name": "realworldapi",
+  "version": "1.0.0",
+  "description": "backend api for realworld example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "akash gupta",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "nodemon": "^1.18.7",
+    "sequelize": "^4.41.2",
+    "slug": "^0.9.2",
+    "sqlite3": "^4.0.4"
+  }
+}
